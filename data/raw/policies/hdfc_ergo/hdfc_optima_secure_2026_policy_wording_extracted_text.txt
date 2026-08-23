@@ -1,0 +1,113 @@
+SOURCE_DOCUMENT: HDFC_OPTIMA_SECURE_2026_POLICY_WORDING
+SOURCE_URL: https://customer-portal-assets.hdfcergo.com/documents/PolicyWordings_myOptimaSecure-76673175551.pdf
+UIN (printed in PDF body, every page): HDFHLIP26058V082526
+FETCH_METHOD: web_fetch text extraction (raw PDF bytes not obtainable in this environment)
+FETCHED_AT: 2026-08-23
+Page numbers below are the PDF's own printed page numbers, as they appeared inline in the extracted text
+immediately after each occurrence of "UIN: my: Optima Secure - HDFHLIP26058V082526 <N>".
+====================================================================
+[PAGE 1] Table of Contents: Preamble(2), Operative Clause(2), A.1.1 Standard Definitions(2), A.1.2 Specific Definitions(2),
+B.1 Base Coverages(11), B.2 Optional Coverages(14), B.3 Renewal Benefit(27), C.1 Waiting Periods(30),
+C.2 Standard Exclusions(31), C.3 Specific Exclusions(33), D.1 Standard General Terms & Clauses(34),
+E Other Terms & Clauses(48), Annexure A(52), Annexure B(56), Annexure C(60).
+
+[PAGE 2] Preamble: contract of insurance issued by HDFC ERGO General Insurance Company Limited. Operating Clause:
+if Insured Person is Hospitalized for Illness/Injury, Company indemnifies Medical Expenses subject to Aggregate
+Deductible, Sub-limits, exclusions, conditions and definitions. Maximum liability per Policy Year = Sum Insured
+(Individual or Floater) including optional covers and Cumulative Bonus.
+
+[PAGES 2-10] Section A.1.1 Standard Definitions (Def.1-43) including: Def.17 Grace Period = fifteen days (monthly
+premium) / thirty days (all other modes). Def.19 Hospitalization = admission for minimum 24 consecutive
+in-patient care hours (except specified day-care procedures). Def.35 Pre-Existing Disease = condition diagnosed
+or medically advised/treated within 36 months prior to policy commencement.
+
+[PAGES 10-30] Section A.1.2 Specific Definitions (Def.1-30); Section B.1 Base Coverage: 1.1 Hospitalization Expenses
+(Room Rent 'At Actuals' unless otherwise specified in Policy Schedule; ICU/ICCU 'At Actuals' unless otherwise
+specified); 1.1.1 Other Expenses (road ambulance, in-patient dental necessitated by disease/injury, plastic
+surgery necessitated by injury, day care treatments); 1.2 Home Health Care; 1.3 Domiciliary Hospitalization;
+1.4 AYUSH Treatment; 1.5 Pre-Hospitalization Expenses = up to 60 days unless otherwise specified in Policy
+Schedule; 1.6 Post-Hospitalization Expenses = up to 180 days unless otherwise specified; 1.7 Organ Donor
+Expenses; 1.8 Cumulative Bonus (CB) = 10% of Base Sum Insured per claim-free renewal year (unless otherwise
+specified), applicable to Optima Suraksha/Optima Lite/Optima Select plans.
+Section B.2 Optional Covers (2.1-2.17): Emergency Air Ambulance; Daily Cash for Shared Room; Protect Benefit;
+Plus Benefit (50% of Base SI added on claim-free renewal, cap 100%); Secure Benefit; Automatic Restore Benefit
+(100% of Base SI restored on admissible claim); Aggregate Deductible (2.7, incl. Waiver option 2.7.1); E-Opinion
+for Critical Illness (2.8, lists 51 major medical illnesses); Global Health Cover Emergency Only (2.9); Global
+Health Cover Emergency & Planned (2.10, Per Claim Deductible Rs.10,000 applies); Overseas Travel Secure (2.11,
+accommodation indemnified up to Rs.15,000/day, max 30 days/Policy Year); PED waiting period modification (2.12,
+optional reduction of 36-month PED wait to 24 or 12 months, channel-level only, not policyholder-selectable);
+Modification of Room Rent (2.13); Modification of Pre-Hospitalization Days (2.14, 60->30 days option, inbuilt in
+Optima Lite); Modification of Post-Hospitalization Days (2.15, 180->60 days option, inbuilt in Optima Lite);
+Modification of Cumulative Bonus (2.16, 10%->25% option, inbuilt in Optima Select); Infinite Benefit (2.17).
+
+[PAGE 29-30] Section B.3 Renewal Benefit - Preventive Health Check-up: Individual Policies per Policy Year limits
+by Base Sum Insured: 5&7.5 Lacs->Rs.1,500; 10 Lacs->Rs.2,000; 15 Lacs->Rs.4,000; 20/25/50/75 Lakhs->Rs.5,000;
+100&200 Lacs->Rs.8,000. Family Floater cumulative limits: 5&7.5 Lacs->Rs.2,500; 10 Lacs->Rs.5,000; 15 Lacs->
+Rs.8,000; 20/25/50/75 Lakhs->Rs.10,000; 100&200 Lacs->Rs.15,000.
+
+[PAGES 30-31] SECTION C. WAITING PERIOD AND EXCLUSIONS
+1.a Pre-Existing Diseases (Code Excl01): expenses related to treatment of PED and direct complications excluded
+until expiry of 36 months (unless specified otherwise in Policy Schedule) of continuous coverage after date of
+inception of first policy with insurer. Enhancement of SI: exclusion applies afresh to extent of increase.
+Continuous coverage without break per IRDAI portability/migration norms: waiting period reduced to extent of
+prior coverage. Coverage after 36 months for PED subject to declaration at application and acceptance by Insurer.
+
+[PAGES 31-32] 1.b Specified Disease/Procedure waiting period (Code Excl02): excluded until expiry of 24 months of
+continuous coverage after date of inception of first Policy with insurer; not applicable for claims arising due
+to accident. Enhancement of SI: exclusion applies afresh to extent of increase. If specified disease/procedure
+falls under PED waiting period, longer of the two applies. List of specific diseases/procedures (Illnesses):
+Non infective Arthritis, Pilonidal sinus, Diseases of gall bladder including cholecystitis, calculus diseases of
+Urogenital system (Kidney stone, Urinary Bladder Stone), Benign tumors/cysts/nodules/polyps incl. breast lumps,
+Pancreatitis, Ulcer and erosion of stomach and duodenum, Polycystic ovarian diseases, All forms of Cirrhosis,
+GERD, Sinusitis/Rhinitis, Perineal/Perianal Abscesses, Skin tumors, Cataract and other disorders of lens/Retina,
+Fissure/fistula in anus, Haemorrhoids, Gout and rheumatism, Tonsillitis, Osteoarthritis and osteoporosis,
+Fibroids (fibromyoma), Benign Hyperplasia of Prostate. Surgical Procedures: Adenoidectomy/tonsillectomy,
+Tympanoplasty/Mastoidectomy, Hernia, D&C, Nasal concha resection, Surgery for prolapsed inter vertebral disc,
+Myomectomy for fibroids, Surgery of Genito urinary system (unless necessitated by Malignancy), Surgery for
+varicose veins/ulcers, Surgery on prostate, Cholecystectomy, Surgery for Perianal Abscesses, Hydrocele/Rectocele,
+Joint replacement surgeries, Surgery for Nasal septum deviation, Ligament/Tendon/Meniscal tear, Hysterectomy,
+Fissurectomy/Haemorrhoidectomy/Fistulectomy/ENT surgeries, Endometriosis, Prolapsed Uterus, Rectal Prolapse,
+Varicocele, Retinal detachment, Glaucoma, Nasal polypectomy.
+
+[PAGE 32] 1.c 30-day waiting period (Code Excl03): expenses related to treatment of any illness within 30 days
+from first Policy commencement date excluded except claims arising due to accident. Does not apply if Insured
+Person has continuous coverage for more than twelve months.
+
+[PAGES 32-34] Section C.2 Standard Exclusions (Code Excl04-Excl18): a.Investigation & Evaluation(Excl04);
+b.Rest Cure/rehabilitation/respite care(Excl05); c.Obesity/Weight control surgical treatment(Excl06, with BMI
+carve-outs: BMI>=40, or >=35 with severe co-morbidities); d.Change-of-Gender treatments(Excl07); e.Cosmetic or
+plastic Surgery(Excl08, carve-out for reconstruction post Accident/Burns/Cancer); f.Hazardous or Adventure
+Sports as professional(Excl09); g.Breach of Law(Excl10); h.Excluded Providers(Excl11, carve-out for stabilization
+in life-threatening situations); i.Alcoholism/drug/substance abuse(Excl12); j.Health hydros/nature cure
+clinics/spas(Excl13); k.Dietary supplements purchasable without prescription(Excl14); l.Refractive Error <7.5
+dioptres(Excl15); m.Unproven Treatments(Excl16); n.Sterility and Infertility(Excl17, incl. IVF/ZIFT/GIFT/ICSI,
+surrogacy); o.Maternity(Excl18, carve-out for ectopic pregnancy).
+
+[PAGES 34-35] Section C.3 Specific Exclusions: war/invasion/nuclear-chemical-biological attack; Aggregate
+Deductible amount; intentional self-injury/suicide; naval/military/air force operations; investigative sleep
+apnoea/run-down condition; congenital external diseases/defects; stem cell harvesting; spinal manipulation
+investigative treatment; circumcision (unless necessitated by illness/injury); vaccination (except post-animal
+bite); non-medical expenses per Annexure B; outpatient treatment; hearing aids/spectacles/contact lenses;
+alopecia/baldness treatments; artificial limbs/prosthesis/external durable medical equipment (except
+intra-operative); unreasonable/not medically necessary treatment; permanent exclusions per Policy Schedule.
+
+[PAGES 35-42] SECTION D. GENERAL TERMS AND CLAUSES: 1.1 Disclosure of Information (policy void on
+misrepresentation/non-disclosure); 1.3 Claim Settlement - Penal Interest: Company shall settle claim (other than
+cashless) within 15 days from date of receipt of intimation of claims; delay -> interest at 2% above Bank Rate;
+1.6 Moratorium Period: 60 continuous months of coverage, non-contestable except established fraud; 1.7 Fraud;
+1.8 Free Look Period: 30 days from date of receipt of policy document, new individual policies only (not
+renewals/porting/migrating); 1.9 Renewal of Policy: not deniable on grounds of past claims (except benefit-based
+policies); grace period condonation; no fresh underwriting unless SI increase; 1.10 Portability: apply at least
+30 days before, not earlier than 60 days from renewal date per IRDAI guidelines; 1.11 Migration: apply at least
+30 days before renewal date; 1.12 Cancellation: Policyholder can cancel with 7 days' written notice (pro-rata
+refund); Company can cancel on established fraud/non-disclosure with 15 days' written notice (no refund);
+1.13 Premium Payment in Instalments: Grace Period table - Multi-Year/Yearly 30 days, Half Yearly 30 days,
+Quarterly 30 days, Monthly 15 days; 1.15 Withdrawal of Policy: Company intimates Insured Person 90 days prior to
+expiry if product withdrawn; 1.17 Redressal of Grievance: Level 1 (C&G Cell, grievance@hdfcergo.com,
+18002677444), Level 2 (Chief Grievance Officer, cgo@hdfcergo.com) if unresolved in 15 days, Level 3 (CIO
+Ombudsman / IRDAI Bima Bharosa); 1.19 Utilization of Sum Insured sequence: Aggregate Deductible -> Base Sum
+Insured -> Secure Benefit -> Cumulative Bonus or Plus Benefit -> [continues beyond extracted range].
+====================================================================
+END OF EXTRACTED SECTIONS (pages 1-42 of PDF; Sections E, Annexures A-C at pages 43-60+ not yet extracted in
+this pass -- claim documentation list, TAT, and non-medical expenses annexure remain to be pulled in a future
+session if needed for further rule categories).

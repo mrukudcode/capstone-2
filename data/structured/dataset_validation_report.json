@@ -1,0 +1,44 @@
+{
+  "generated_at_utc": "2026-08-23T14:41:42.423309Z",
+  "counts": {
+    "documents": 5,
+    "policy_versions": 4,
+    "insurers": 2,
+    "rule_candidates_total": 59,
+    "rule_candidates_insurer_document": 49,
+    "rule_candidates_regulatory_document": 10,
+    "rule_candidates_by_review_status": {
+      "PENDING": 42,
+      "NEEDS_REVIEW": 17
+    },
+    "rule_candidates_by_rule_type": {
+      "INITIAL_WAITING_PERIOD": 3,
+      "SPECIFIED_DISEASE_WAITING_PERIOD": 3,
+      "PED_WAITING_PERIOD": 4,
+      "ROOM_RENT_LIMIT": 2,
+      "SUB_LIMIT": 4,
+      "CO_PAYMENT": 1,
+      "DEDUCTIBLE": 2,
+      "CLAIM_FILING_DEADLINE": 5,
+      "CLAIM_NOTIFICATION_DEADLINE": 2,
+      "PREAUTH_REQUIREMENT": 5,
+      "EXCLUSION": 3,
+      "NON_COVERED_TREATMENT": 2,
+      "POLICY_VERSION_RULE": 16,
+      "POLICY_INACTIVE": 3,
+      "GRACE_PERIOD": 1,
+      "POLICY_EXPIRED": 2,
+      "DOCUMENTATION_MISSING": 1
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "STAR_ASSURE_2026_CIS: hash_type=EXTRACTED_TEXT (genuine environment limitation -- no raw PDF byte access in this session; see source_documents.csv notes)",
+    "HDFC_OPTIMA_SECURE_2026_POLICY_WORDING: hash_type=EXTRACTED_TEXT (genuine environment limitation -- no raw PDF byte access in this session; see source_documents.csv notes)",
+    "HDFC_OPTIMA_SECURE_2026_CIS: hash_type=EXTRACTED_TEXT (genuine environment limitation -- no raw PDF byte access in this session; see source_documents.csv notes)",
+    "HDFC_OPTIMA_SECURE_2021_HISTORICAL: hash_type=EXTRACTED_TEXT (genuine environment limitation -- no raw PDF byte access in this session; see source_documents.csv notes)",
+    "IRDAI_MASTER_CIRCULAR_2024: hash_type=EXTRACTED_TEXT (genuine environment limitation -- no raw PDF byte access in this session; see source_documents.csv notes)"
+  ],
+  "error_count": 0,
+  "warning_count": 5
+}

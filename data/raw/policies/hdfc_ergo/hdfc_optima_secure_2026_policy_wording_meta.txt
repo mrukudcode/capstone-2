@@ -1,0 +1,19 @@
+SOURCE_DOCUMENT: HDFC_OPTIMA_SECURE_2026_POLICY_WORDING
+SOURCE_URL: https://customer-portal-assets.hdfcergo.com/documents/PolicyWordings_myOptimaSecure-76673175551.pdf
+LINKED_FROM: https://www.hdfcergo.com/download/policy-wordings/health (official HDFC ERGO downloads page)
+LINK_LABEL_ON_SITE: "my:Optima Secure (for policies with period of Insurance starting 02-April-2026 onwards)"
+UIN_PRINTED_IN_PDF_BODY_EVERY_PAGE: HDFHLIP26058V082526
+PAGE_COUNT_PER_TOC: 60+ (Table of Contents lists Annexure C ending at page 60; Section D General Terms alone runs to at least page 42 in extracted text)
+FETCH_METHOD: web_fetch text extraction (raw PDF bytes not obtainable in this environment)
+FETCHED_AT: 2026-08-23
+NOTE_ON_UIN_CONFLICT: The SAME hdfcergo.com download page's footer disclaimer text (product-feature footnotes,
+shared across Health Insurance section) cites "UIN: my: Optima Secure - HDFHLIP25041V062425" -- a DIFFERENT UIN
+from the one printed on every page of the linked current Policy Wording PDF (HDFHLIP26058V082526).
+Additionally, third-party mirrors found via search show further historical UINs for the same product name:
+  HDFHLIP25011V052425 (ditto-partners S3 mirror, undated capture)
+  HDFHLIP23123V022223 (policybazaar / scribd mirrors, ~2023 vintage)
+  HDFHLIP21016V012122 (IRDAI product filing mirror + hdfcergo.com archived CIS/PW combined doc dated Aug 2021) -- this is the HISTORICAL 2021 version.
+This is logged verbatim in docs/HDFC_ERGO_UIN_REVIEW.md. Per project instructions, the PRINTED-IN-BODY UIN of the
+current official Policy Wording PDF (HDFHLIP26058V082526) is treated as PROBABLE current UIN, but rules extracted
+from this document are marked review_status=NEEDS_REVIEW pending manual resolution, per the "do not silently choose"
+rule.

@@ -1,0 +1,217 @@
+SOURCE_DOCUMENT: STAR_ASSURE_2026_CIS
+SOURCE_URL: https://d28c6jni2fmamz.cloudfront.net/CIS_Star_Health_Assure_Insurance_Policy_V_2_380ce4ce6b.pdf
+UIN: SHAHLIP26048V032526
+DOC_VERSION_LABEL: CIS / SHA / V.7 / 2026
+FETCH_METHOD: web_fetch text extraction (raw PDF bytes not obtainable in this environment)
+FETCHED_AT: 2026-08-23
+====================================================================
+[PAGE 1]
+Star Health Assure 
+Insurance Policy
+SHAHLIP26048V032526
+Customer Information Sheet 
+Star Health Assure 
+Insurance Policy
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 1 / 20
+SI. No Title Description Refer to Policy Clause Number
+1 Name of Insurance Product / Policy: Star Health Assure Insurance Policy, Unique Identification No : SHAHLIP26048V032526 -
+2 Policy Number: Refer Policy Schedule attached with this document -
+3 Type of Insurance Product / Policy: Both Indemnity and Benefit -
+4 Sum Insured: Refer Policy Schedule attached with this document -
+Please check whether the details given by you about the Insured Persons in the proposal form are incorporated correctly in the policy schedule. If you find any discrepancy, please inform us within 15 days from the date of receipt of the policy.
+CUSTOMER INFORMATION SHEET/KNOW YOUR POLICY
+STAR HEALTH AND ALLIED INSURANCE COMPANY LIMITED
+Registered Office: No. 1, New Tank Street, Valluvar Kottam High Road, Nungambakkam, Chennai - 600 034.
+IRDAI Regn. No.: 129
+
+[PAGE 2]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 2 / 20
+5. Policy Coverage (What the policy covers):
+1. In-patient Treatment: Admission in Hospital beyond 24 hours. B(1)(i,ii,iii)
+2. Day Care Treatment: All day care procedures requiring less than 24 hours of hospitalization. B(2)
+3. AYUSH Treatment: covered up to Sum Insured. B(3)
+4. Coverage for Modern Treatment: Covered up to Sum Insured. B(4)
+5. Pre-Hospitalization: Medical Expenses incurred up to 60 days prior to hospitalization. B(5)
+6. Post-Hospitalization: Medical Expenses incurred up to 180 days after discharge from the hospital. B(6)
+7. Road ambulance. B(7)
+8. Air Ambulance: up to 10% of Sum Insured per Policy Year. B(8)
+9. Organ Donor Expenses. B(9)
+10. Home Care Treatment: Payable up to 10% of the Sum Insured subject to maximum of Rs.5 lakhs in a Policy Year. B(10)
+11. Domiciliary Hospitalization: period exceeding three days. B(11)
+12. Cumulative Bonus: 25% of Sum Insured for each claim free year, max up to 100% of the Sum Insured. B(12)
+13. Automatic Restoration of Sum Insured: unlimited number of times, max up to 100% each time. B(13)
+
+[PAGE 3]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 3 / 20
+14. Treatment for Chronic Severe Refractory Asthma: up to 10% of Sum Insured not exceeding Rs.5 lakhs per Policy Period. B(14)
+15. Delivery Expenses: up to 10% of the Sum Insured. B(15)
+16. In Utero Fetal Surgery/Intervention: after the waiting period of 24 months from the date of inception of this policy. B(16)
+17. Assisted Reproduction Treatment: waiting period of 24 months from the date of first inception of this policy; one cycle per Policy Year. B(17)
+18. Hospitalization expenses for treatment of New Born Baby: from Day 1 of its birth till the expiry date of the policy. B(18)
+19. Shared accommodation: Rs.1,000/- per day. B(19)
+
+[PAGE 4]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 4 / 20
+20. Preventive Health Check-up. B(20)
+21. E-Domestic Second Medical Opinion. B(21)
+22. Unlimited Tele-Consultation. B(22)
+23. AI driven Face Scan: up to 2 times per month per Insured Person in a Policy Year. B(23)
+24. Compassionate Travel: reimburse transportation expenses by air up to Rs.10,000/-. B(24)
+25. Repatriation of Mortal Remains: up to Rs.15,000/- in a Policy Year. B(25)
+26. Rehabilitation and Pain Management: up to sub-limit or max 20% of Sum Insured, whichever is less, per Policy Year. B(26)
+27. Coverage for Non-medical Items (Consumables). B(27)
+28. Treatment in Valuable Service Providers Network: 1% of Sum Insured subject to max Rs.5,000/- per Policy Period. B(28)
+29. Star Wellness Program. B(30)
+
+[PAGE 5]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 5 / 20
+30. Optional Cover to choose Deductible:
+Sum Insured Up to Rs.20 lakhs: Aggregate Deductible Option Rs.50,000/- -> Discount 45%; Rs.1,00,000/- -> Discount 55%.
+Sum Insured Above Rs.20 lakhs: Aggregate Deductible Option Rs.50,000/- -> Discount 35%; Rs.1,00,000/- -> Discount 50%. B(31)
+6. Exclusions (What the policy does not cover) - Standard Exclusions:
+1. Investigation & Evaluation Excl 04
+2. Rest Cure, rehabilitation (except covered under Coverage 26) and respite care Excl 05
+3. Obesity/ Weight Control Excl 06
+4. Change-of-Gender treatments Excl 07
+5. Cosmetic or plastic Surgery Excl 08
+6. Hazardous or Adventure sports Excl 09
+7. Breach of law Excl 10
+8. Excluded Providers Excl 11
+9. Treatment for Alcoholism, drug or substance abuse or any addictive condition Excl 12
+10. Treatments received in health hydros, nature cure clinics, spas or similar establishments Excl 13
+11. Dietary supplements and substances purchasable without prescription Excl 14
+12. Refractive Error Excl 15
+
+[PAGE 6]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 6 / 20
+13. Unproven Treatments Excl 16
+14. Sterility and Infertility (except covered under Coverage 17) Excl 17
+15. Maternity (except covered under Coverage 15) Excl 18
+Specific Exclusions:
+16. Circumcision (unless necessary due to disease/accident), Preputioplasty, Frenuloplasty, Preputial Dilatation, Removal of SMEGMA Excl 19
+17. Congenital External Condition / Defects / Anomalies (except covered under Coverage 18) Excl 20
+18. Convalescence, general debility, run-down condition, Nutritional deficiency states Excl 21
+19. Intentional self-injury Excl 22
+20. Injury/disease caused by war, invasion, act of foreign enemy, warlike operations Excl 24
+21. Injury or disease caused by nuclear weapons/materials Excl 25
+22. Enhanced External Counter Pulsation Therapy and related therapies, Chelation therapy, Hyperbaric Oxygen Therapy, RF Quantum Magnetic Resonance Therapy, VAX-D, Low level laser therapy, Photodynamic therapy Excl 26
+23. Unconventional, Untested, Experimental therapies Excl 27
+24. Autologous derived Stromal vascular fraction, Chondrocyte Implantation, Procedures using Platelet Rich plasma and Intra articular injection therapy Excl 28
+25. Biologicals, except when administered as an in-patient, when clinically indicated and hospitalization warranted Excl 29
+
+[PAGE 7]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 7 / 20
+26. Inoculation or Vaccination (except post-bite treatment and therapeutic reasons) Excl 31
+27. Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants not payable) Excl 32
+28. Cost of spectacles and contact lens, hearing aids, Cochlear implants, walkers/crutches, wheel chairs, CPAP, BIPAP, CAPD, infusion pump Excl 35
+28(b). Any hospitalization not medically necessary / does not warrant hospitalization Excl 36
+29. Existing disease/s, disclosed by Insured and mentioned in policy schedule under Permanent Exclusion Excl 38
+7. Waiting Period:
+30-day waiting period: A. Expenses related to treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident. B. Exclusion does not apply if Insured Person has continuous coverage for more than twelve months. C. Waiting period made applicable to enhanced Sum Insured in event of granting higher Sum Insured subsequently. Excl 03
+
+Specified disease/procedure waiting period: A. Expenses related to treatment of the listed Conditions, surgeries/treatments shall be excluded until expiry of 24 months of continuous coverage after the date of inception of the first policy with us. Not applicable for claims arising due to accident. B. In case of enhancement of Sum Insured, exclusion applies afresh to extent of increase. C. If specified disease/procedure falls under PED waiting period, the longer of the two applies. D. Waiting period applies even if contracted after the policy or declared/accepted without specific exclusion. E. If Insured Person continuously covered without break per IRDAI portability norms, waiting period reduced to extent of prior coverage. Excl 02
+
+[PAGE 8]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 8 / 20
+F. List of specific diseases/procedures (24-month specified disease waiting period, Excl 02):
+1. Cataract and diseases of anterior/posterior chamber of Eye, Diseases of ENT, Thyroid diseases, Benign diseases of breast
+2. Subcutaneous Benign Lumps, Sebaceous cyst, Dermoid cyst, Mucous cyst lip/cheek, Carpal Tunnel Syndrome, Trigger Finger, Lipoma, Neurofibroma, Fibroadenoma, Ganglion
+3. All treatments for Diseases related to Tendon, Ligament, Fascia, Bones and Joint incl. Arthroscopy and Arthroplasty/Joint Replacement (other than caused by accident)
+4. Degenerative disc and Vertebral diseases incl. Replacement of bones/joints, Prolapse of Intervertebral Disc (other than caused by accident)
+5. Hepato-pancreato-biliary diseases incl. Gall bladder and Pancreatic calculi; Kidney calculi and Genitourinary tract calculi
+6. All types of Hernia
+7. Desmoid Tumor, Umbilical Granuloma, Umbilical Sinus, Umbilical Fistula
+8. Diseases of Cervix, Uterus, Fallopian tubes, Ovaries, Uterine Bleeding, Pelvic Inflammatory Diseases
+9. Diseases of Prostate, Stricture Urethra, Obstructive Uropathies
+10. Benign Tumours of Epididymis, Spermatocele, Varicocele, Hydrocele
+11. Fistula, Fissure in Ano, Hemorrhoids, Pilonidal Sinus and Fistula, Rectal Prolapse, Stress Incontinence
+
+[PAGE 9]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 9 / 20
+12. Varicose veins and Varicose ulcers
+13. All types of transplant and related surgeries
+14. Congenital Internal disease/defect (except Unborn in Coverage 16 and New Born in Coverage 18) Excl 02
+
+Pre-existing diseases (PED):
+A. Applicable for 3 year Policy Term: expenses related to treatment of PED and its direct complications excluded until expiry of 30 months of continuous coverage after date of inception of first policy with insurer.
+Applicable for 1 year and 2 year Policy Term: expenses related to treatment of PED excluded until expiry of 36 months of continuous coverage after date of inception of first policy with insurer.
+B. In case of enhancement of Sum Insured, exclusion applies afresh to extent of increase.
+C. If continuously covered without break per IRDAI portability norms, waiting period reduced to extent of prior coverage.
+D. Applicable for 3 year Policy Term: coverage after expiry of 30 months for PED subject to declaration at application and acceptance by Insurer.
+Applicable for 1 year and 2 year Policy Term: coverage after expiry of 36 months for PED subject to declaration at application and acceptance by Insurer. Excl 01
+
+[PAGE 10]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 10 / 20
+8. Financial limits of coverage
+i. Sub-limit — Room, Boarding and Nursing charges:
+Sum Insured 5/7.5 Lakhs: Room Rent Criteria = Up to 1% of Sum Insured per day. B(1)(i)
+Sum Insured 10/15/20/25 Lakhs: Any Room (Except suite or above category). B(1)(i)
+Sum Insured 50/75/100/200 Lakhs: Any room. B(1)(i)
+2. Air Ambulance: covered up to 10% of Sum Insured per Policy Year. B(8)
+3. Home Care Treatment: 10% of Sum Insured, max Rs.5 lakhs per Policy Year. B(10)
+4. Treatment for Chronic Severe Refractory Asthma: 10% of Sum Insured, not exceeding Rs.5 lakhs per Policy Period. B(14)
+5. Delivery Expenses: covered up to 10% of Sum Insured. B(15)
+6. Assisted Reproduction Treatment limit of liability in a Policy Year: Sum Insured 5/7.5 Lakhs -> Rs.1,00,000/-; 10/15/20/25 Lakhs -> Rs.2,00,000/-; 50/75/100/200 Lakhs -> Rs.4,00,000/-. B(17)
+
+[PAGE 11]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 11 / 20
+7. Hospitalization expenses for New Born Baby, limit per Policy Period: Sum Insured 5/7.5/10/15/20/25 Lakhs -> Rs.2,00,000/-; 50/75/100/200 Lakhs -> Rs.4,00,000/-. Note: sub-limits do not apply for treatment related to congenital Internal disease/defects for the new born. B(18)
+8. Preventive Health Check-up limits by Sum Insured (Individual/Floater): 5,00,000 -> 1,500/2,500; 7,50,000 -> 1,500/2,500; 10,00,000 -> 2,000/5,000; 15,00,000 -> 4,000/8,000; 20,00,000 -> 5,000/10,000; 25,00,000 -> 5,000/10,000; 50,00,000 -> 5,000/10,000; 75,00,000 -> 8,000/15,000; 1,00,00,000 -> 8,000/15,000; 2,00,00,000 -> 8,000/15,000. B(20)
+9. Rehabilitation and Pain Management: up to sub-limit or max 20% of Sum Insured per Policy Year, whichever is less. B(26)
+
+[PAGE 12]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 12 / 20
+Pain Management sub-limits (Sum Insured 5/7.5/10/15/20 Lakhs vs 25 & above Lakhs): Lumbar/cervical medial branch block with RF ablation 65,000/75,000; Caudal epidural injection 40,000/50,000; Lumbar/cervical selective nerve root block 50,000/60,000; Caudal Neuroplasty 85,000/1,00,000. B(26)
+
+[PAGE 13]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 13 / 20
+Pain Management sub-limits continued: Stellate ganglion ablation 65,000/75,000; Occipital nerve Pulsed RF 65,000/75,000; Lumbar sympathetic chain RF ablation 65,000/75,000; Gasserian ganglion ablation 65,000/75,000; Intercostal nerve ablation 65,000/75,000; Coeliac plexus ablation 65,000/75,000; Superior hypogastric plexus ablation 65,000/75,000; Ganglion impar ablation 65,000/75,000; Cooled RF ablation of genicular nerve 1,00,000/1,25,000; Suprascapular nerve RF ablation 65,000/75,000. B(26)
+ii. Co-payment: 10% of each and every claim amount for fresh as well as renewal policies for insured person whose age at time of entry is 61 years and above. B(29)
+
+[PAGE 14]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 14 / 20
+iii. Deductible: Optional Cover to choose Deductible. Sum Insured Up to Rs.20 Lakhs: Rs.50,000/- -> 45% discount, Rs.1,00,000/- -> 55% discount. Above Rs.20 Lakhs: Rs.50,000/- -> 35% discount, Rs.1,00,000/- -> 50% discount. Applicable per Policy Year on Aggregate basis. B(31)
+iv. Any other limit: Not Applicable.
+9. Claims / Claims Procedure:
+Notification of Claim time limits:
+Emergency Hospitalization (Cashless/Reimbursement): Within 24 hours of date and time of Hospitalization.
+Planned Hospitalization (Cashless/Reimbursement): At least 48 hours prior to proposed treatment or hospitalization, whichever is earlier.
+Process for Cashless Treatment (a-j): intimate company, provide ID number, produce customer ID card, obtain Pre-authorization Form, treating doctor completes form, company processes and approves/rejects. D(2) & E
+
+[PAGE 15]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 15 / 20
+Time limits and Documents for Reimbursement claims:
+1. Reimbursement of hospitalization, day care and pre-hospitalization expenses: Claim must be filed within 15 days from the date of discharge from the Hospital.
+2. Reimbursement of Post hospitalization: Within 15 days after completion of maximum number of Post hospitalization days applicable under the product.
+Turn Around Time (TAT) for claims settlement:
+i. TAT for preauthorization of cashless facility: Within 1 hour from time of receipt of all necessary relevant documents.
+ii. TAT for cashless final bill authorization: Within 3 hours from time of receipt of all necessary relevant documents.
+
+[PAGE 16]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 16 / 20
+10. Policy servicing: Assistant General Manager – Customer Care. Customer Care No. 044-69006900 or Toll Free No. 1800 425 2255, Senior Citizens: 044-69007500. e-mail: support@starhealth.in. D(21)
+
+[PAGE 17]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 17 / 20
+11. Grievances/Complaints: Grievance Redressal Officer, Corporate Grievance Department, Chennai. Ph 044-69006900 / Toll Free 1800 425 2255. Mail: gro@starhealth.in / grievances@starhealth.in. IRDAI Integrated Grievance Management System – https://bimabharosa.irdai.gov.in/. D(15)
+12. Things to remember:
+Free Look Cancellation: Free Look Period of thirty days from date of receipt of the policy document to review terms and conditions, applicable on new individual health insurance policies (not renewals or porting/migrating), for policies with term of one year or more. D(14)
+
+[PAGE 18]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 18 / 20
+Renewal of Policy: policy renewable provided product not withdrawn except established fraud/non-disclosure/misrepresentation. At end of policy period, policy terminates and can be renewed within Grace Period of 30 days. If renewed during Grace Period, credits (Sum Insured, No Claim Bonus, Specific Waiting Periods, PED waiting period, Moratorium period) are protected. D(9)
+Migration: policyholder can transfer credits (Sum Insured, No Claim Bonus, waiting periods, moratorium period) to migrated policy with same insurer. D(7)
+Portability: Policyholder can port policy from one insurer to another by applying at least 30 days before, but not earlier than 60 days from policy renewal date, per IRDAI portability guidelines. Entitled to transfer credits gained to Acquiring Insurer. D(8)
+Revision of Sum Insured: reduction/enhancement permissible only at renewal, subject to Exclusion Codes Excl 01, Excl 02, Excl 03. D(26)
+
+[PAGE 19]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 19 / 20
+Moratorium Period: After completion of sixty continuous months of coverage (including portability and migration), no policy and claim shall be contestable by insurer on grounds of non-disclosure/misrepresentation, except established fraud. Moratorium applies to Sum Insured of first policy; where Sum Insured enhanced, sixty months applies from date of enhancement for the enhanced limits only. D(11)
+13. Your Obligations: Disclose all pre-existing disease/s or conditions before buying a policy. Policy shall be void and premium forfeited in event of misrepresentation/mis-description/non-disclosure of material fact. D(1)
+
+[PAGE 20]
+Star Health Assure Insurance Policy | UIN : SHAHLIP26048V032526 | CIS / SHA / V.7 / 2026 20 / 20
+BENEFIT ILLUSTRATION (premium tables, individual/floater basis) — illustrative only, not a policy rule.
+Declaration by the Policy Holder. Note: In case of any conflict, the terms and conditions mentioned in the policy document shall prevail.
+====================================================================
+END OF DOCUMENT (20 pages, as printed in source PDF pagination "N / 20")

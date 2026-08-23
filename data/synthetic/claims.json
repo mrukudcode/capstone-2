@@ -1,0 +1,432 @@
+[
+  {
+    "claim_ref": "SYN-IWP-29",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "29 days elapsed",
+    "derived_from_rule": "SA26-001",
+    "rule_value": "30 DAYS",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "policy_start_date": "2026-01-01",
+      "admission_date": "2026-01-30",
+      "expected_severity": "FAIL"
+    }
+  },
+  {
+    "claim_ref": "SYN-IWP-30",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "30 days elapsed",
+    "derived_from_rule": "SA26-001",
+    "rule_value": "30 DAYS",
+    "case": "BOUNDARY_AT",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "policy_start_date": "2026-01-01",
+      "admission_date": "2026-01-31",
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-IWP-31",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "31 days elapsed",
+    "derived_from_rule": "SA26-001",
+    "rule_value": "30 DAYS",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "policy_start_date": "2026-01-01",
+      "admission_date": "2026-02-01",
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-SDW-23mo",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "23 months elapsed, cataract",
+    "derived_from_rule": "SA26-002",
+    "rule_value": "24 MONTHS",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "policy_start_date": "2024-08-23",
+      "admission_date": "2026-07-20",
+      "diagnosis_description": "Cataract surgery",
+      "expected_severity": "FAIL"
+    }
+  },
+  {
+    "claim_ref": "SYN-SDW-25mo",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "25 months elapsed, cataract",
+    "derived_from_rule": "SA26-002",
+    "rule_value": "24 MONTHS",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "policy_start_date": "2024-06-23",
+      "admission_date": "2026-07-20",
+      "diagnosis_description": "Cataract surgery",
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-PED-35mo",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "35 months elapsed, PED",
+    "derived_from_rule": "SA26-003",
+    "rule_value": "36 MONTHS",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "policy_start_date": "2023-08-01",
+      "admission_date": "2026-07-01",
+      "expected_severity": "FAIL"
+    }
+  },
+  {
+    "claim_ref": "SYN-PED-37mo",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "37 months elapsed, PED",
+    "derived_from_rule": "SA26-003",
+    "rule_value": "36 MONTHS",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "policy_start_date": "2023-06-01",
+      "admission_date": "2026-07-01",
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-RR-4999",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Room rent just under limit",
+    "derived_from_rule": "SA26-005",
+    "rule_value": "1 PERCENT_OF_SUM_INSURED_PER_DAY",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "sum_insured": 500000,
+      "room_rent_per_day": 4999,
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-RR-5000",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Room rent at limit",
+    "derived_from_rule": "SA26-005",
+    "rule_value": "1 PERCENT_OF_SUM_INSURED_PER_DAY",
+    "case": "BOUNDARY_AT",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "sum_insured": 500000,
+      "room_rent_per_day": 5000,
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-RR-5001",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Room rent just over limit",
+    "derived_from_rule": "SA26-005",
+    "rule_value": "1 PERCENT_OF_SUM_INSURED_PER_DAY",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "sum_insured": 500000,
+      "room_rent_per_day": 5001,
+      "expected_severity": "PARTIAL_DEDUCTION"
+    }
+  },
+  {
+    "claim_ref": "SYN-SL-under",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Home care billed under sub-limit",
+    "derived_from_rule": "SA26-006",
+    "rule_value": "10 PERCENT_OF_SUM_INSURED_MAX_RS_5_LAKHS",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "sum_insured": 2000000,
+      "treatment_category": "Home Care Treatment",
+      "category_billed_amount": 199999,
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-SL-at",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Home care billed at sub-limit",
+    "derived_from_rule": "SA26-006",
+    "rule_value": "10 PERCENT_OF_SUM_INSURED_MAX_RS_5_LAKHS",
+    "case": "BOUNDARY_AT",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "sum_insured": 2000000,
+      "treatment_category": "Home Care Treatment",
+      "category_billed_amount": 200000,
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-SL-over",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Home care billed over sub-limit",
+    "derived_from_rule": "SA26-006",
+    "rule_value": "10 PERCENT_OF_SUM_INSURED_MAX_RS_5_LAKHS",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "sum_insured": 2000000,
+      "treatment_category": "Home Care Treatment",
+      "category_billed_amount": 200001,
+      "expected_severity": "PARTIAL_DEDUCTION"
+    }
+  },
+  {
+    "claim_ref": "SYN-COPAY-60",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Entry age 60, no co-pay",
+    "derived_from_rule": "SA26-008",
+    "rule_value": "10 PERCENT",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "insured_age_at_entry": 60,
+      "billed_amount": 100000,
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-COPAY-61",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Entry age 61, co-pay applies",
+    "derived_from_rule": "SA26-008",
+    "rule_value": "10 PERCENT",
+    "case": "BOUNDARY_AT",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "insured_age_at_entry": 61,
+      "billed_amount": 100000,
+      "expected_severity": "PARTIAL_DEDUCTION"
+    }
+  },
+  {
+    "claim_ref": "SYN-DED-notopted",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Deductible not opted",
+    "derived_from_rule": "SA26-009",
+    "rule_value": "50000 or 100000 RS",
+    "case": "NEGATIVE",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "deductible_opted": false,
+      "billed_amount": 300000,
+      "expected_severity": "NOT_APPLICABLE"
+    }
+  },
+  {
+    "claim_ref": "SYN-DED-opted",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Deductible opted, Rs.50,000",
+    "derived_from_rule": "SA26-009",
+    "rule_value": "50000 or 100000 RS",
+    "case": "POSITIVE",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "deductible_opted": true,
+      "deductible_amount_opted": 50000,
+      "billed_amount": 300000,
+      "expected_severity": "PARTIAL_DEDUCTION"
+    }
+  },
+  {
+    "claim_ref": "SYN-CFD-STAR-14",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Filed 14 days after discharge",
+    "derived_from_rule": "SA26-010",
+    "rule_value": "15 DAYS",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "discharge_date": "2026-01-01",
+      "claim_filed_date": "2026-01-15",
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-CFD-STAR-16",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Filed 16 days after discharge",
+    "derived_from_rule": "SA26-010",
+    "rule_value": "15 DAYS",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "discharge_date": "2026-01-01",
+      "claim_filed_date": "2026-01-17",
+      "expected_severity": "WARNING"
+    }
+  },
+  {
+    "claim_ref": "SYN-CFD-HDFC21-29",
+    "policy_version_id": "hdfc_optima_secure_2021_v1",
+    "description": "Filed 29 days after discharge (2021 30-day rule)",
+    "derived_from_rule": "HDFC21-007",
+    "rule_value": "30 DAYS",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "discharge_date": "2021-06-01",
+      "claim_filed_date": "2021-06-30",
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-CFD-HDFC21-31",
+    "policy_version_id": "hdfc_optima_secure_2021_v1",
+    "description": "Filed 31 days after discharge (2021 30-day rule)",
+    "derived_from_rule": "HDFC21-007",
+    "rule_value": "30 DAYS",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "discharge_date": "2021-06-01",
+      "claim_filed_date": "2021-07-02",
+      "expected_severity": "WARNING"
+    }
+  },
+  {
+    "claim_ref": "SYN-NOTIF-23h",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Notified 23h after admission (emergency)",
+    "derived_from_rule": "SA26-012",
+    "rule_value": "24 HOURS",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "claim_type": "EMERGENCY",
+      "admission_date": "2026-01-01",
+      "notification_date": "2026-01-01",
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-NOTIF-48h",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Notified 48h after admission (emergency)",
+    "derived_from_rule": "SA26-012",
+    "rule_value": "24 HOURS",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "claim_type": "EMERGENCY",
+      "admission_date": "2026-01-01",
+      "notification_date": "2026-01-03",
+      "expected_severity": "WARNING"
+    }
+  },
+  {
+    "claim_ref": "SYN-PREAUTH-72h",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Preauth requested 72h before planned admission",
+    "derived_from_rule": "SA26-013",
+    "rule_value": "48 HOURS",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "claim_type": "PLANNED",
+      "admission_date": "2026-03-10",
+      "preauth_request_date": "2026-03-07",
+      "expected_severity": "PASS"
+    }
+  },
+  {
+    "claim_ref": "SYN-PREAUTH-24h",
+    "policy_version_id": "star_assure_2026_v1",
+    "description": "Preauth requested 24h before planned admission",
+    "derived_from_rule": "SA26-013",
+    "rule_value": "48 HOURS",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "claim_type": "PLANNED",
+      "admission_date": "2026-03-10",
+      "preauth_request_date": "2026-03-09",
+      "expected_severity": "WARNING"
+    }
+  },
+  {
+    "claim_ref": "SYN-DOC-below",
+    "policy_version_id": "hdfc_optima_secure_2021_v1",
+    "description": "Billed below Rs.1L threshold",
+    "derived_from_rule": "HDFC21-011",
+    "rule_value": "100000 RS",
+    "case": "BOUNDARY_UNDER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "billed_amount": 99999,
+      "documents_submitted": "claim_form,photo_id",
+      "expected_severity": "NOT_APPLICABLE"
+    }
+  },
+  {
+    "claim_ref": "SYN-DOC-above-missing",
+    "policy_version_id": "hdfc_optima_secure_2021_v1",
+    "description": "Billed above Rs.1L, KYC missing",
+    "derived_from_rule": "HDFC21-011",
+    "rule_value": "100000 RS",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "billed_amount": 150000,
+      "documents_submitted": "claim_form,photo_id",
+      "expected_severity": "WARNING"
+    }
+  },
+  {
+    "claim_ref": "SYN-DOC-above-present",
+    "policy_version_id": "hdfc_optima_secure_2021_v1",
+    "description": "Billed above Rs.1L, KYC present",
+    "derived_from_rule": "HDFC21-011",
+    "rule_value": "100000 RS",
+    "case": "BOUNDARY_OVER",
+    "claim_provenance": "SYNTHETIC",
+    "expected_result_provenance": "DERIVED_FROM_REAL_RULE",
+    "fields": {
+      "billed_amount": 150000,
+      "documents_submitted": "claim_form,photo_id,KYC",
+      "expected_severity": "PASS"
+    }
+  }
+]

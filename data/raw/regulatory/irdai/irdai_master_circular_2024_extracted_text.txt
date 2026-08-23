@@ -1,0 +1,125 @@
+SOURCE_DOCUMENT: IRDAI_MASTER_CIRCULAR_HEALTH_INSURANCE_2024
+REFERENCE: IRDAI/HLT/CIR/PRO/84/5/2024
+DATE: 29.05.2024
+SIGNATORY: Ramana Rao A, Chief General Manager
+TITLE: Master Circular on IRDAI (Insurance Products) Regulations 2024 - Health Insurance
+ISSUED UNDER: Section 14(2)(e) of IRDAI Act 1999 and Section 34 of Insurance Act 1938, read with Regulation 7 of
+Schedule-III of IRDAI (Insurance Products) Regulations 2024.
+SOURCE_URL_USED (full verbatim reproduction, matches official reference/date/signatory):
+  https://taxguru.in/corporate-law/master-circular-irdai-insurance-productsregulations-2024health-insurance.html
+OFFICIAL_SOURCE_ATTEMPTED_BUT_BLOCKED: https://irdai.gov.in/document-detail?documentId=4942918 (irdai.gov.in
+  disallows automated/robots access in this environment; content below is cross-verified via a full-text
+  secondary republication that reproduces the circular's reference number, date, and CGM signatory verbatim, and
+  is treated as ORIGINAL_TEXT provenance with hash_type=EXTRACTED_TEXT / original_file_available=false, same as
+  all other documents in this session, given no PDF bytes are directly retrievable in this environment)
+FETCH_METHOD: web_fetch text extraction
+FETCHED_AT: 2026-08-23
+Page numbers below follow the circular's own printed index (Effective date p.4; Chapter I p.4-11; Chapter II
+p.11-17; Chapter III p.17).
+====================================================================
+[Effective date, p.4] Master circular in force with immediate effect (except where a specific effective date is
+stated). Existing non-compliant products to be modified on/before 30.09.2024. PMC must ensure waiting-period and
+Moratorium-period credits accrued to policyholder are protected and carried forward.
+
+[Chapter I, para 4, CIS requirement] Customer Information Sheet (CIS) must be provided with every policy
+(individual and group members), format per Annexure 1, containing: type of insurance, sum insured, coverage
+provided, summary of exclusions, sub-limits, deductibles, waiting period(s), Free Look Period, Policy Renewal,
+Migration, Portability, Moratorium Period, Claims Procedure, Policy Servicing, Grievance Redressal contacts
+(incl. Ombudsman). Acknowledgment (physical or digital) required from policyholder.
+
+[Chapter I, para 5] Free Look Period: 30 days from date of receipt of policy document, for policies with term of
+one year or more, to review and cancel if not satisfied.
+
+[Chapter I, para 6] Cancellation of indemnity-based health policy by policyholder: 7 days' written notice;
+Insurer refunds proportionate premium for unexpired period (term up to 1 year, no claims made) or full premium
+for unexpired period (term >1 year, risk not yet commenced for those years).
+
+[Chapter I, para 8] Grace Period for premium payment: 15 days (monthly instalment) / 30 days (quarterly/
+half-yearly/annual instalment). If renewed within grace period, all credits (sum insured, No Claim Bonus,
+specific waiting periods, PED waiting period, Moratorium period) are protected -- applies to both Indemnity and
+Benefit products.
+
+[Chapter I, para 9] Coverage during grace period: available if premium paid in instalments during the policy
+period.
+
+[Chapter I, para 10] Renewal: health insurance policy renewable unless product withdrawn, except established
+fraud/non-disclosure/misrepresentation. Insurer shall not deny renewal on ground of prior claims. No fresh
+underwriting unless sum insured increased (and then only to extent of the increase).
+
+[Chapter I, para 11] Migration (same insurer): policyholder can transfer credits (Sum Insured, No Claim Bonus,
+specific waiting periods, PED waiting period, Moratorium period) to migrated policy.
+
+[Chapter I, para 12] Portability (across insurers): Acquiring and Existing insurers must jointly ensure seamless
+transfer of underwriting/claim history. Existing insurer must respond to Acquiring insurer's information request
+within 72 hours via IIB (https://iib.gov.in/) portal. Acquiring insurer must decide/communicate within 5 days of
+receiving that information. Policyholder entitled to transfer credits (Sum Insured, NCB, specific waiting
+periods, PED waiting period, Moratorium period) to Acquiring Insurer.
+
+[Chapter I, para 13] Moratorium Period: no policy/claim contestable on non-disclosure/misrepresentation grounds
+(except established fraud) after completion of 60 months of continuous coverage. Credits from ported/migrated
+policies count toward the Moratorium period calculation.
+
+[Chapter I, para 14] No Claim Bonus (NCB): insurer may reward no-claim policyholders via NCB, paid per
+policyholder's choice at each renewal as: (a) Cumulative Bonus (Sum Insured increase, no premium increase),
+and/or (b) discount on renewal premium.
+
+[Chapter I, para 15] Cashless authorization: insurer must strive for 100% cashless claim settlement.
+PREAUTHORIZATION DECISION REQUIRED WITHIN 1 HOUR of receipt of request (systems/procedures required in place by
+31 July 2024). Digital pre-authorization must also be offered.
+
+[Chapter I, para 16] Final discharge authorization: WITHIN 3 HOURS of receipt of discharge authorization request
+from the hospital; policyholder must not be made to wait for discharge. Delay beyond 3 hours -> any additional
+hospital charges to be borne by insurer from shareholders' funds. On death during treatment: insurer must
+immediately process claim settlement and ensure mortal remains released from hospital immediately.
+
+[Chapter I, para 17] Settlement of Claims: no claim may be repudiated without approval of the PMC or its
+three-member sub-group, the Claims Review Committee (CRC). Repudiation/partial disallowance must be conveyed to
+claimant with full reference to specific policy terms/conditions. Insurers/TPAs must collect required documents
+FROM THE HOSPITALS following claim intimation -- policyholder shall not be required to submit documents.
+
+[Chapter I, para 18] Claims under multiple policies: (a) Indemnity: policyholder chooses primary insurer/policy
+for claim; if coverage under that policy is less than the admissible amount, the primary insurer must coordinate
+with other insurers for the balance without hassle to the policyholder. (b) Benefit-based: policyholder may
+claim from all insurers under all such policies on occurrence of the insured event.
+
+[Chapter I, para 19] Grievance Redressal: insurer must maintain a robust grievance process; response letters
+must include contact details of the relevant Insurance Ombudsman for escalation.
+
+[Chapter I, para 20] Ombudsman Award compliance: insurer must comply within 30 days of receipt of the award, or
+pay a penalty of Rs. 5,000/day to the complainant (in addition to any penal interest due under the Insurance
+Ombudsman Rules 2017).
+
+[Chapter II.A, General Principles] Insurers must have board-approved underwriting policy (covering offering
+across all ages/medical conditions, AYUSH parity), board-approved hospital-empanelment quality policy (striving
+for 100% cashless, covering all treatment situations incl. domiciliary/OPD/day-care/homecare), simple-language
+proposal forms and CIS, defined claims-handling procedures and TATs, a Claims Review Committee, and prominent
+website disclosure of network-hospital lists, claim procedures, and TATs for policy servicing and claim
+settlement (cashless and reimbursement).
+
+[Chapter II.B, TPA Performance Monitoring] TPA remuneration must NOT depend on Incurred Claim Ratio (ICR) of
+policies served; insurer must obtain customer feedback and may claw back TPA remuneration based on that feedback
+(clawed-back amounts passed to the customer); TPAs paid only after satisfactory full discharge of services.
+
+[Chapter II.C, Product Management Committee / Advertisement Committee] PMC composition (Appointed Actuary, Chief
+Marketing/Distribution Officer, Chief Investment Officer, Chief Technology Officer, Chief Compliance Officer);
+quorum 3 members plus Appointed Actuary. Advertisement Committee composition and quorum requirements specified.
+
+[Chapter II.D, Product Filing/Withdrawal] New/modified products require PMC approval and UIN. If not launched
+within 30 days of UIN generation, approval process must be redone. Product withdrawal: insurer must notify via
+Form IRDAI-HPW within 30 days of withdrawal decision; existing customers of a withdrawn product get: (a) a
+ONE-TIME OPTION TO RENEW if renewal falls within 90 DAYS of withdrawal, or (b) migration to a suitable
+existing/modified product. Multi-year products continue on agreed terms for existing policyholders for the full
+term.
+
+[Chapter III.I] Model product mandated for Persons with Disabilities, persons with HIV/AIDS, and persons with
+mental illness, per Mental Healthcare Act 2017 s.21(4), Rights of Persons with Disabilities Act 2016 s.3, HIV and
+AIDS (Prevention and Control) Act 2017 s.3(j); minimum-scope model per Cir. IRDAI/HLT/CIR/MISC/58/2/2023 dated
+27.02.2023; insurers may widen scope but not narrow it.
+
+[Chapter III.II] Ayushman Bharat Health Account (ABHA) number: insurers may facilitate creation with policyholder
+consent; express consent required for sharing medical records.
+
+[Chapter III.IV] This circular supersedes/repeals 55 prior Guidelines/Circulars listed in its Annexure-6 (list
+not reproduced in the source used for this extraction).
+====================================================================
+END OF EXTRACTED SECTIONS (Chapters I-III as indexed; page numbers reflect the circular's own printed index)

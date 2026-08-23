@@ -1,0 +1,136 @@
+SOURCE_DOCUMENT: HDFC_OPTIMA_SECURE_2021_HISTORICAL (CIS + Policy Wordings combined PDF)
+SOURCE_URL: https://www.hdfcergo.com/docs/default-source/downloads/policy-wordings/health/myoptima-secure---cis-pww.pdf
+UIN (printed in PDF body, every page): HDFHLIP21016V012122
+DOC_VERSION_LABEL printed in body: "PWW/Ver - 9 AUG2021" (CIS section), "PWW/Ver - 19 AUG 2021" (Policy Wordings
+section start)
+STATUS: This is the genuinely-recovered historical (2021) HDFC ERGO Optima Secure document referenced but not
+re-ingested in the prior session. It is HOSTED ON HDFC ERGO'S OWN OFFICIAL DOMAIN (hdfcergo.com), so it is treated
+as an official archived source, not a third-party mirror.
+FETCH_METHOD: web_fetch text extraction (raw PDF bytes not obtainable in this environment)
+FETCHED_AT: 2026-08-23
+CRITICAL — DO NOT MERGE WITH 2026 RULES. This document's rules are isolated to policy_version=2021_v1 (UIN
+HDFHLIP21016V012122) and are structurally and numerically DIFFERENT from the 2026 version in several places
+(see notes below).
+====================================================================
+[PAGE 1] CIS: Product Name my:Optima Secure. Coverage listing (Section B) same broad structure as 2026 version:
+Hospitalization Expenses(B-1.1), Home Health Care(B-1.2), Domiciliary Hospitalization(B-1.3), AYUSH Treatment
+(B-1.4), Pre-Hospitalization 60 days(B-1.5), Post-Hospitalization 180 days(B-1.6), Organ Donor Expenses(B-1.7),
+Cumulative Bonus(B-1.8). Optional Covers(B-2): Emergency Air Ambulance, Daily Cash for Shared Room, Protect
+Benefit, Plus Benefit, Secure Benefit, Automatic Restore Benefit, Aggregate Deductible, E-Opinion for Critical
+Illness. Preventive Health Check-up (B-3).
+
+[PAGE 2] Exclusions (partial list in CIS): Investigation & Evaluation(Excl04), Rest Cure/rehabilitation/respite
+care(Excl05), Obesity/Weight control surgical(Excl06, BMI>=40 or >=35+comorbidities), Change-of-Gender(Excl07).
+Waiting Periods (CIS summary): "Pre-existing Diseases will be covered after a waiting period of 36 months"
+(Excl01); "24 months for specific illness and treatments in the first two years, not applicable in subsequent
+renewals" (Excl02); "30 days for all illnesses (except accident) in the first year, not applicable in subsequent
+renewals" (Excl03).
+
+[PAGE 3] Payment Basis: Indemnity for most covers; Benefit basis for Daily Cash for shared room. Loss Sharing:
+Aggregate Deductible applicable in aggregate towards claims during the year. Premium Payment Options: Yearly/
+Half-Yearly/Quarterly/Monthly. Renewal Conditions: Policy is renewable for lifetime; Grace Period table -
+Multi-Year/Yearly 30 days, Half Yearly 30 days, Quarterly 30 days, Monthly 15 days. Renewal Benefits: Cumulative
+Bonus, Plus Benefit, Preventive Health Check-up. Cancellation: Company may cancel on misrepresentation/fraud/
+non-disclosure/non-cooperation upon giving 30 days' notice [NOTE: differs from 2026 version's 15-days'-notice
+company-cancellation clause]. Policyholder may cancel any time by written notice; no refund if claim made during
+Policy Year.
+
+[PAGE 3, continued] How to Claim: contact 48hrs prior (planned) / within 24hrs (emergency); submit claim form
+and documents within 30 days from date of discharge [DIFFERS FROM 2026 CIS's TAT figures]; additional info
+within 15 days of Company's request. Policy Servicing/Grievance: Escalation Level 1 grievance@hdfcergo.com,
+Level 2 cgo@hdfcergo.com, Level 3 Ombudsman. Insured's Rights: "Free Look for 15 days from date of receipt of
+Policy document" [DIFFERS FROM 2026 VERSION'S 30-DAY FREE LOOK PERIOD]; Lifelong Renewal with 30 days Grace
+Period. Insured's Obligations: disclosure of material facts on Proposal Form.
+
+[PAGES 3-6] Section A Definitions (Def.1-43 Standard, Def.1-27 Specific). NOTABLE VERSION DIFFERENCE: Def.35
+Pre-Existing Disease in this 2021 document is defined as diagnosed/advised "within 48 months prior to the
+effective date of the policy" [DIFFERS FROM 2026 VERSION'S 36-MONTH PED DEFINITION WINDOW]. Def.17 Grace Period
+(2021 definition, general, not instalment-specific).
+
+[PAGES 7-9] Section B Benefits: Base Coverage 1.1-1.8 (Hospitalization Expenses, Home Health Care, Domiciliary
+Hospitalization, AYUSH Treatment, Pre-Hospitalization up to 60 days, Post-Hospitalization up to 180 days, Organ
+Donor Expenses, Cumulative Bonus). Cumulative Bonus (CB) 2021 rule: 10% of Base SI per claim-free Policy Year,
+max 100% cap; REDUCES at same rate if claim made in a year [2026 version's CB no longer reduces on claims -- it
+is now claims-independent "irrespective of claims"]. Section B-2 Optional Covers 2.1-2.8: Emergency Air
+Ambulance (India-only in 2021; 2026 version extends abroad under Global Health Cover options which did not exist
+in 2021), Daily Cash for Shared Room, Protect Benefit, Plus Benefit (50% of Base SI, carries forward unutilized
+amount to subsequent year -- 2026 version instead re-applies annually without inter-year carry of unutilized
+amount), Secure Benefit, Automatic Restore Benefit (2021: single trigger only, once per Policy Year -- 2026
+version supports an "Unlimited Times" option if specified in schedule), Aggregate Deductible (2021: once opted
+cannot be reduced/opted-out, only increased at renewal -- no Waiver-of-Aggregate-Deductible option existed in
+2021; that option (2.7.1) is new in the 2026 version), E-Opinion for Critical Illness (same 51-illness list as
+2026 version). Preventive Health Check-up limits (2021, Individual, per Policy Year): 5 Lacs->Rs.1,500; 10
+Lacs->Rs.2,000; 15 Lacs->Rs.4,000; 20/25/50 Lacs->Rs.5,000; 100&200 Lacs->Rs.8,000 [NOTE: 2021 tier structure
+groups 20/25/50 Lacs together, whereas 2026 groups 20/25/50/75 Lacs together -- band boundaries shifted].
+Family Floater (2021): 5 Lacs->2,500; 10 Lacs->5,000; 15 Lacs->8,000; 20/25/50 Lacs->10,000; 100&200->15,000.
+
+[PAGES 12-15] SECTION C. EXCLUSIONS.
+1.a Pre-Existing Diseases (Code Excl01): excluded until expiry of 36 months of continuous coverage after date of
+inception of first policy with insurer [SAME 36-MONTH FIGURE AS 2026 VERSION, despite the Def.35 definition
+window itself differing: 48 months in 2021 vs 36 months in 2026].
+1.b Specified Disease/Procedure waiting period (Code Excl02): 24 months, same list of illnesses/surgical
+procedures as 2026 version, PLUS "Internal Congenital diseases" listed as an illness category in the 2021
+version's list [NOT PRESENT as a listed item in the 2026 version's equivalent list, where Congenital Internal
+disease appears instead under the PED/other-exclusion structure rather than this specified-disease list].
+1.c 30-day waiting period (Code Excl03): same wording as 2026 version.
+Standard Exclusions (Excl04-Excl18): textually identical in substance to the 2026 version (Investigation &
+Evaluation, Rest Cure, Obesity, Change-of-Gender, Cosmetic Surgery, Hazardous Sports, Breach of Law, Excluded
+Providers, Alcoholism, Health hydros/spas, Dietary supplements, Refractive Error <7.5 dioptres, Unproven
+Treatments, Sterility/Infertility, Maternity).
+Specific Exclusions (a-q): textually identical in substance to 2026 version (war/nuclear, Aggregate Deductible,
+self-injury, military ops, sleep-apnoea, congenital external, stem cell harvesting, spinal manipulation,
+circumcision, vaccination, non-medical expenses, outpatient, hearing aids, alopecia, artificial limbs,
+unreasonable treatment, permanent exclusions).
+
+[PAGES 15-16] SECTION D. GENERAL TERMS.
+1.3 Claim Settlement (Penal Interest) 2021 version: Company shall settle/reject claim within 30 days from receipt
+of LAST NECESSARY DOCUMENT; if investigation warranted, complete within 30 days and settle/reject within 45 days
+of last necessary document; delay beyond 45 days -> interest at 2% above Bank Rate.
+[THIS DIFFERS SUBSTANTIALLY FROM THE 2026 VERSION, WHICH INSTEAD COMMITS TO SETTLING WITHIN 15 DAYS FROM DATE OF
+RECEIPT OF INTIMATION OF CLAIM (not "last necessary document"), WITH NO SEPARATE 45-DAY INVESTIGATION-CASE
+CARVE-OUT STATED IN THE EXTRACTED 2026 TEXT.]
+1.6 Moratorium Period (2021 version): "After completion of EIGHT continuous years under the policy, no look
+back to be applied." [THIS DIFFERS FROM THE 2026 VERSION, WHICH SETS MORATORIUM AT SIXTY CONTINUOUS MONTHS
+(5 years), matching the post-2020 IRDAI regulatory standard. The 2021 document's 8-year moratorium reflects the
+pre-2020 regulatory regime and is a genuine, material, version-specific difference -- not an extraction error.]
+1.8 Free look Period (2021 version): "fifteen days from date of receipt of the policy document" [DIFFERS FROM
+2026 VERSION'S 30 DAYS -- IRDAI increased the standard free-look period to 30 days for policies with risk
+commencement on/after 1 Oct 2024 per the Insurance Products Regulations 2024 / Master Circular 29-May-2024;
+this 2021 document pre-dates that change].
+1.9 Renewal of Policy (2021): Company "not under obligation to give any notice for Renewal" [2026 version places
+more affirmative renewal-continuity language and IRDAI-regulation-driven provisions, e.g. "no fresh
+underwriting unless SI increase" is stated explicitly in 2026 text but not found in this 2021 extract].
+1.10 Portability (2021): apply "at least 45 days before, but not earlier than 60 days from the policy renewal
+date" [DIFFERS FROM 2026 VERSION'S 30-DAYS-BEFORE FIGURE -- IRDAI's portability lead time was subsequently
+shortened from 45 to 30 days].
+1.12 Cancellation (2021): Policyholder gives 15 days' written notice, refund per a SHORT-RATE CANCELLATION GRID
+by elapsed policy month and tenure (values reproduced above); Company may cancel on fraud/misrepresentation/
+non-disclosure with 15 days' written notice, no refund. [DIFFERS FROM 2026 VERSION: Policyholder notice period
+is 7 days in 2026 vs 15 days in 2021; 2026 grants pro-rata refund on Policyholder-initiated cancellation rather
+than the 2021 short-rate grid.]
+2.1 Non-Disclosure/Misrepresentation of PED (2021): additional waiting period option "not exceeding 4 years"
+[DIFFERS FROM 2026 VERSION'S "not exceeding 3 years"].
+2.4 Loadings (2021): maximum medical underwriting loading "shall not exceed 100% for each condition and a total
+of 150% for each Insured Person," proposer must respond to counter-offer letter "within 15 days." [This detailed
+loading-cap clause was not found in the 2026 extracted sections captured in this session; flagged
+NOT_FOUND_IN_SOURCE for 2026 pending fuller extraction of 2026 Section D.2, not a confirmed absence.]
+
+[PAGES 20-21] SECTION E. CLAIMS PROCEDURE (2021).
+1.1 Notification: within 24 hours of emergency hospitalization or before discharge, whichever earlier; at least
+48 hours prior for planned hospitalization.
+1.5 Procedure for Reimbursement Claims -- Prescribed Time Limits: Reimbursement of Hospitalization/Day Care/
+Pre-Hospitalization Expenses: WITHIN 30 DAYS OF DATE OF DISCHARGE FROM HOSPITAL. Reimbursement of
+Post-Hospitalization Expenses: WITHIN 15 DAYS FROM COMPLETION OF POST-HOSPITALIZATION TREATMENT.
+[NOTE: the 2026 CIS extracted in this session states TAT for cashless preauth/final-bill only; it does not
+restate the 30-day/15-day reimbursement filing deadlines in the section captured -- these figures are carried
+here as the 2021 document's stated deadlines and are NOT to be assumed identical for 2026 without direct
+confirmation from the 2026 Policy Wording's own Section E (not yet extracted in this session).]
+1.6 List of documents required for a Claim: extensive list (claim form, photo ID, hospital registration, discharge
+card, final bill, implant invoices/stickers, prior consultation papers, diagnostic reports, pharmacy bills,
+MLC/FIR copy for accidents, death summary/certificate for death claims, KYC for claims above Rs.1 lakh, NEFT form,
+legal heir/succession certificate where applicable).
+Annexure A: Insurance Ombudsman office addresses (Ahmedabad through Pune, jurisdiction by state/UT).
+IRDA REGULATION NOTE: "This Policy is subject to regulation 12 of IRDA (Protection of Policyholder's Interests)
+Regulation 2017" [pre-dates the 2024 Insurance Products Regulations referenced in the 2026 documents].
+====================================================================
+END OF EXTRACTED SECTIONS (pages 1-24 of PDF)
