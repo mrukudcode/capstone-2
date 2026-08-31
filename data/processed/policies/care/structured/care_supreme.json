@@ -1,0 +1,74 @@
+{
+  "policy_name": "Care Supreme",
+  "insurer": "Care Health Insurance Limited",
+  "uin": "CHIHLIP27061V032627",
+  "country": "India",
+  "policy_type": "Health Insurance",
+  "source_document": "care_supreme_policy_extracted_text.txt",
+  "waiting_periods": {
+    "pre_existing_disease_months": 36,
+    "named_ailment_months": 24,
+    "initial_waiting_days": 30
+  },
+  "important_rules": {
+    "pre_existing_disease": {
+      "code": "Excl01",
+      "waiting_period_months": 36,
+      "description": "Expenses related to treatment of a pre-existing disease and its direct complications are excluded until expiry of 36 months of continuous coverage."
+    },
+    "named_ailment": {
+      "code": "Excl02",
+      "waiting_period_months": 24,
+      "description": "Treatment of listed conditions, surgeries and treatments and their direct complications are excluded until expiry of 24 months of continuous coverage."
+    },
+    "initial_waiting_period": {
+      "code": "Excl03",
+      "waiting_period_days": 30,
+      "description": "Treatment for illness within 30 days from the first policy commencement date is excluded, except claims arising due to an accident where covered."
+    }
+  },
+  "named_ailments": [
+    "Arthritis",
+    "Osteoarthritis",
+    "Osteoporosis",
+    "Gout",
+    "Rheumatism",
+    "Spinal Disorders",
+    "Joint Replacement Surgery",
+    "Arthroscopic Knee Surgery",
+    "ACL Reconstruction",
+    "Meniscal and Ligament Repair",
+    "Benign ENT disorders",
+    "Nasal Septum Deviation",
+    "Sinusitis",
+    "Benign Prostatic Hypertrophy",
+    "Cataract",
+    "Dilatation and Curettage",
+    "Fissure",
+    "Fistula",
+    "Hemorrhoids",
+    "Pilonidal Sinus",
+    "Gastric Ulcers",
+    "Duodenal Ulcers",
+    "Genito-urinary system surgery",
+    "Hernia",
+    "Hydrocele",
+    "Hysterectomy",
+    "Internal Tumours",
+    "Skin Tumours",
+    "Cysts",
+    "Nodules",
+    "Polyps",
+    "Breast Lumps",
+    "Kidney Stone",
+    "Ureteric Stone",
+    "Lithotripsy",
+    "Gall Bladder Stone",
+    "Myomectomy for Fibroids",
+    "Varicose Veins",
+    "Varicose Ulcers",
+    "Parkinson's Disease",
+    "Alzheimer's Disease",
+    "Dementia"
+  ]
+}

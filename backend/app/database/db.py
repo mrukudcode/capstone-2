@@ -1,18 +1,47 @@
 """
-Database connection. Uses SQLite for this session's implementation
-(see models/models.py scope note). Swap DATABASE_URL to a Postgres DSN
-(e.g. postgresql+psycopg2://user:pass@localhost/dbname) to switch engines
-without any other code changes -- the ORM layer is engine-agnostic.
+Database connection.
+
+SQLite database is anchored to the backend directory so the same
+claim_validator.db is used regardless of the directory from which
+the application or scripts are launched.
 """
+
 import os
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URL = os.environ.get("DATABASE_URL", "sqlite:///./claim_validator.db")
 
-connect_args = {"check_same_thread": False} if DATABASE_URL.startswith("sqlite") else {}
-engine = create_engine(DATABASE_URL, connect_args=connect_args)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+BASE_DIR = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..")
+)
+
+DEFAULT_DATABASE_PATH = os.path.join(
+    BASE_DIR,
+    "claim_validator.db"
+)
+
+DATABASE_URL = os.environ.get(
+    "DATABASE_URL",
+    f"sqlite:///{DEFAULT_DATABASE_PATH.replace(os.sep, '/')}"
+)
+
+connect_args = (
+    {"check_same_thread": False}
+    if DATABASE_URL.startswith("sqlite")
+    else {}
+)
+
+engine = create_engine(
+    DATABASE_URL,
+    connect_args=connect_args
+)
+
+SessionLocal = sessionmaker(
+    autocommit=False,
+    autoflush=False,
+    bind=engine
+)
 
 
 def get_db():

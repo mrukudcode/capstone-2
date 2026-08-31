@@ -8,6 +8,7 @@ import RuleEvidence from './pages/RuleEvidence';
 import { PolicyList, PolicyDetail } from './pages/PolicyBrowser';
 import PolicySourceViewer from './pages/PolicySourceViewer';
 import Documentation from './pages/Documentation';
+import PolicyUpload from './pages/PolicyUpload';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/claims/:claimId/rules/:ruleId" element={<RuleEvidence />} />
         <Route path="/policies" element={<PolicyList />} />
         <Route path="/policies/:policyId" element={<PolicyDetail />} />
+        <Route path="/policies/upload" element={<PolicyUpload />} />
         <Route path="/policy-source-viewer" element={<PolicySourceViewer />} />
         <Route path="/documentation" element={<Documentation />} />
       </Routes>

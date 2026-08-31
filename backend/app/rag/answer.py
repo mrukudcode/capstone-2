@@ -1,120 +1,209 @@
 """
-Answer generation layer. The LLM/extractive layer NEVER makes PASS/FAIL
-decisions, never does waiting-period or financial arithmetic, and never
-sees anything except the user's question plus the retrieved chunk texts
-(never the whole database).
+Answer generation layer.
 
-Provider abstraction: if no LLM API key is configured in the environment,
-this falls back to a purely EXTRACTIVE answer (the retrieved passage
-itself, verbatim, with a short deterministic lead-in) -- this requires no
-network call and cannot hallucinate, since it never generates new text,
-only surfaces real retrieved text. This is the default for this project
-since no LLM provider was previously configured anywhere in the codebase
-(verified by inspection) and no API key should be assumed available.
-
-If OPENAI_API_KEY or ANTHROPIC_API_KEY is present in the environment, the
-corresponding provider is used instead to produce a more natural-language
-summary of the SAME retrieved passages -- but even then, the system
-prompt explicitly forbids using outside knowledge or inferring missing
-terms, per the project's requirement.
+IMPORTANT:
+- The LLM NEVER makes PASS/FAIL decisions.
+- The deterministic rule engine handles claim validation.
+- The LLM is used only for policy-document explanations / RAG QA.
+- The LLM receives only the user's question and retrieved policy chunks.
+- If Groq is unavailable, the system falls back to extractive answers.
 """
+
 import os
 from abc import ABC, abstractmethod
 from typing import List
 
 from app.rag.retrieve import RetrievedChunk
 
+
+# --------------------------------------------------
+# SYSTEM PROMPT
+# --------------------------------------------------
+
 SYSTEM_PROMPT = (
     "You are a policy-document explanation assistant.\n"
-    "Answer only from the supplied source passages.\n"
+    "Answer ONLY from the supplied source passages.\n"
     "Do not use outside knowledge.\n"
     "Do not infer missing policy terms.\n"
-    "If the answer is not supported by the passages, say: "
+    "Do not invent coverage, exclusions, limits, waiting periods, "
+    "deductions, or eligibility conditions.\n"
+    "If the answer is not supported by the supplied passages, say:\n"
     "'Not found in the selected policy source.'\n"
-    "Cite every factual claim with document and page."
+    "Cite every factual claim using the supplied document ID and page number.\n"
 )
 
 
+# --------------------------------------------------
+# PROVIDER INTERFACE
+# --------------------------------------------------
+
 class LLMProvider(ABC):
+
     @abstractmethod
-    def generate_answer(self, question: str, chunks: List[RetrievedChunk]) -> str:
+    def generate_answer(
+        self,
+        question: str,
+        chunks: List[RetrievedChunk],
+    ) -> str:
         ...
 
 
-class ExtractiveProvider(LLMProvider):
-    """No LLM call at all. Returns the single most relevant retrieved
-    passage verbatim, prefixed with a fixed, non-generative lead-in. This
-    is the safest possible option: it is architecturally incapable of
-    inventing policy facts, because it never generates new text."""
+# --------------------------------------------------
+# EXTRACTIVE FALLBACK
+# --------------------------------------------------
 
-    def generate_answer(self, question: str, chunks: List[RetrievedChunk]) -> str:
+class ExtractiveProvider(LLMProvider):
+    """
+    No LLM call.
+
+    Returns the retrieved policy passages directly.
+    This is the fallback if Groq is unavailable.
+    """
+
+    def generate_answer(
+        self,
+        question: str,
+        chunks: List[RetrievedChunk],
+    ) -> str:
+
         if not chunks:
             return "Not found in the selected policy source."
-        parts = [f"Based on {c.document_id} (page {c.page}): {c.text}" for c in chunks]
+
+        parts = [
+            f"Based on {c.document_id} (page {c.page}): {c.text}"
+            for c in chunks
+        ]
+
         return "\n\n".join(parts)
 
 
-class OpenAIProvider(LLMProvider):
-    def __init__(self, api_key: str, model: str = "gpt-4o-mini"):
+# --------------------------------------------------
+# GROQ PROVIDER
+# --------------------------------------------------
+
+class GroqProvider(LLMProvider):
+    """
+    Uses Groq through the OpenAI-compatible Python client.
+
+    Groq API endpoint:
+        https://api.groq.com/openai/v1
+    """
+
+    def __init__(
+        self,
+        api_key: str,
+        model: str = "openai/gpt-oss-120b",
+    ):
         self.api_key = api_key
         self.model = model
 
-    def generate_answer(self, question: str, chunks: List[RetrievedChunk]) -> str:
+    def generate_answer(
+        self,
+        question: str,
+        chunks: List[RetrievedChunk],
+    ) -> str:
+
         if not chunks:
             return "Not found in the selected policy source."
+
         try:
             from openai import OpenAI
 
+            # ------------------------------------------
+            # Prepare ONLY retrieved policy passages
+            # ------------------------------------------
+
             passages = "\n\n".join(
-                f"[{c.document_id}, page {c.page}]: {c.text}" for c in chunks
+                f"[{c.document_id}, page {c.page}]: {c.text}"
+                for c in chunks
             )
-            client = OpenAI(api_key=self.api_key)
-            resp = client.chat.completions.create(
+
+            # ------------------------------------------
+            # Groq client
+            # ------------------------------------------
+
+            client = OpenAI(
+                api_key=self.api_key,
+                base_url="https://api.groq.com/openai/v1",
+            )
+
+            # ------------------------------------------
+            # Actual LLM call
+            # ------------------------------------------
+
+            response = client.chat.completions.create(
                 model=self.model,
                 messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": f"Question: {question}\n\nSource passages:\n{passages}"},
+                    {
+                        "role": "system",
+                        "content": SYSTEM_PROMPT,
+                    },
+                    {
+                        "role": "user",
+                        "content": (
+                            f"Question: {question}\n\n"
+                            f"Source passages:\n{passages}"
+                        ),
+                    },
                 ],
+                temperature=0,
             )
-            return resp.choices[0].message.content
-        except Exception:
-            return ExtractiveProvider().generate_answer(question, chunks)
 
+            answer = response.choices[0].message.content
 
-class AnthropicProvider(LLMProvider):
-    def __init__(self, api_key: str, model: str = "claude-haiku-4-5-20251001"):
-        self.api_key = api_key
-        self.model = model
+            if not answer:
+                raise RuntimeError(
+                    "Groq returned an empty response."
+                )
 
-    def generate_answer(self, question: str, chunks: List[RetrievedChunk]) -> str:
-        if not chunks:
-            return "Not found in the selected policy source."
-        try:
-            import anthropic
-
-            passages = "\n\n".join(
-                f"[{c.document_id}, page {c.page}]: {c.text}" for c in chunks
+            print(
+                f"[RAG] Groq LLM used successfully "
+                f"(model={self.model})"
             )
-            client = anthropic.Anthropic(api_key=self.api_key)
-            resp = client.messages.create(
-                model=self.model,
-                max_tokens=500,
-                system=SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": f"Question: {question}\n\nSource passages:\n{passages}"}],
-            )
-            return resp.content[0].text
-        except Exception:
-            return ExtractiveProvider().generate_answer(question, chunks)
 
+            return answer
+
+        except Exception as e:
+
+            # IMPORTANT:
+            # Do NOT silently hide API errors.
+            print(
+                f"[RAG] Groq API error: "
+                f"{type(e).__name__}: {e}"
+            )
+
+            print(
+                "[RAG] Falling back to ExtractiveProvider."
+            )
+
+            return ExtractiveProvider().generate_answer(
+                question,
+                chunks,
+            )
+
+
+# --------------------------------------------------
+# PROVIDER SELECTION
+# --------------------------------------------------
 
 def get_provider() -> LLMProvider:
-    """Selects a provider based on environment variables ONLY -- never a
-    hardcoded key. Falls back to the extractive (no-API-key-needed)
-    provider if nothing is configured."""
-    openai_key = os.environ.get("OPENAI_API_KEY")
-    anthropic_key = os.environ.get("ANTHROPIC_API_KEY")
-    if anthropic_key:
-        return AnthropicProvider(anthropic_key)
-    if openai_key:
-        return OpenAIProvider(openai_key)
+    """
+    Select Groq if GROQ_API_KEY exists.
+
+    Otherwise use the safe extractive fallback.
+
+    The API key is NEVER hardcoded.
+    """
+
+    groq_key = os.environ.get("GROQ_API_KEY")
+
+    if groq_key:
+        print("[RAG] Using GroqProvider")
+        return GroqProvider(groq_key)
+
+    print(
+        "[RAG] GROQ_API_KEY not found. "
+        "Using ExtractiveProvider."
+    )
+
     return ExtractiveProvider()

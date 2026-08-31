@@ -6,6 +6,7 @@ const BASE = ''; // same-origin, proxied to the backend in dev (see vite.config.
 
 async function request(path, options = {}) {
   let res;
+
   try {
     res = await fetch(`${BASE}${path}`, {
       headers: { 'Content-Type': 'application/json' },
@@ -20,6 +21,7 @@ async function request(path, options = {}) {
 
   let body = null;
   const text = await res.text();
+
   if (text) {
     try {
       body = JSON.parse(text);
@@ -29,36 +31,131 @@ async function request(path, options = {}) {
   }
 
   if (!res.ok) {
-    const detail = (body && body.detail) ? body.detail : `HTTP ${res.status}`;
+    const detail =
+      body && body.detail
+        ? body.detail
+        : `HTTP ${res.status}`;
+
     throw new ApiError(detail, res.status, body);
   }
+
   return body;
 }
 
 export class ApiError extends Error {
   constructor(message, status, body) {
     super(message);
+    this.name = 'ApiError';
     this.status = status;
     this.body = body;
   }
 }
 
 export const api = {
-  health: () => request('/health'),
-  listPolicies: () => request('/policies'),
-  getPolicy: (policyId) => request(`/policies/${policyId}`),
-  getPolicyRules: (policyId) => request(`/policies/${policyId}/rules`),
-  getPolicySources: (policyId) => request(`/policies/${policyId}/sources`),
-  getDocumentText: (documentId) => request(`/documents/${encodeURIComponent(documentId)}/text`),
-  getRule: (candidateId) => request(`/rules/${encodeURIComponent(candidateId)}`),
-  createClaim: (payload) => request('/claims', { method: 'POST', body: JSON.stringify(payload) }),
-  listClaims: () => request('/claims'),
-  getClaim: (claimId) => request(`/claims/${claimId}`),
-    validateClaim: (claimId) => request(`/claims/${claimId}/validate`, { method: 'POST' }),
-  getValidation: (claimId) => request(`/claims/${claimId}/validation`),
-  askClaimQuestion: (claimId, question) => request(`/claims/${claimId}/questions`, {
-    method: 'POST',
-    body: JSON.stringify({ question }),
-  }),
-};
+  // --------------------------------------------------
+  // General
+  // --------------------------------------------------
 
+  health: () => request('/health'),
+
+  // --------------------------------------------------
+  // Policies
+  // --------------------------------------------------
+
+  listPolicies: () => request('/policies'),
+
+  getPolicy: (policyId) =>
+    request(`/policies/${policyId}`),
+
+  getPolicyRules: (policyId) =>
+    request(`/policies/${policyId}/rules`),
+
+  getPolicySources: (policyId) =>
+    request(`/policies/${policyId}/sources`),
+
+  getDocumentText: (documentId) =>
+    request(`/documents/${encodeURIComponent(documentId)}/text`),
+
+  getRule: (candidateId) =>
+    request(`/rules/${encodeURIComponent(candidateId)}`),
+
+  // --------------------------------------------------
+  // ICD-10
+  // --------------------------------------------------
+
+  searchICD10: (query) =>
+    request(
+      `/api/icd10/search?q=${encodeURIComponent(query)}`
+    ),
+
+  // --------------------------------------------------
+  // Claims
+  // --------------------------------------------------
+
+  createClaim: (payload) =>
+    request('/claims', {
+      method: 'POST',
+      body: JSON.stringify(payload),
+    }),
+
+  listClaims: () =>
+    request('/claims'),
+
+  getClaim: (claimId) =>
+    request(`/claims/${claimId}`),
+
+  validateClaim: (claimId) =>
+    request(`/claims/${claimId}/validate`, {
+      method: 'POST',
+    }),
+
+  getValidation: (claimId) =>
+    request(`/claims/${claimId}/validation`),
+  updateClaim: (claimId, payload) =>
+    request(`/claims/${claimId}`, {
+      method: 'PATCH',
+      body: JSON.stringify(payload),
+    }),
+  // --------------------------------------------------
+  // Claim Questions / QA
+  // --------------------------------------------------
+    uploadPolicy: async (formData) => {
+    let res;
+    try {
+      res = await fetch(`${BASE}/policies/upload`, {
+        method: 'POST',
+        body: formData,
+      });
+    } catch (networkErr) {
+      throw new ApiError(
+        `Cannot reach the backend API. Is it running? (${networkErr.message})`,
+        0,
+      );
+    }
+
+    let body = null;
+    const text = await res.text();
+
+    if (text) {
+      try {
+        body = JSON.parse(text);
+      } catch {
+        body = text;
+      }
+    }
+
+    if (!res.ok) {
+      const detail =
+        body && body.detail ? body.detail : `HTTP ${res.status}`;
+
+      throw new ApiError(detail, res.status, body);
+    }
+
+    return body;
+  },
+  askClaimQuestion: (claimId, question) =>
+    request(`/claims/${claimId}/questions`, {
+      method: 'POST',
+      body: JSON.stringify({ question }),
+    }),
+};

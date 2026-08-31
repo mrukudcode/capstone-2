@@ -3,16 +3,42 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+
   server: {
     port: 5173,
+
     proxy: {
-      // Backend FastAPI is expected on :5001 during dev (see README run
-      // instructions). Proxy avoids CORS setup for the demo.
-      '/health': 'http://127.0.0.1:5001',
-      '/policies': 'http://127.0.0.1:5001',
-      '/claims': 'http://127.0.0.1:5001',
-      '/documents': 'http://127.0.0.1:5001',
-      '/rules': 'http://127.0.0.1:5001',
+      '/health': {
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+      },
+
+      '/policies': {
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+      },
+
+      '/claims': {
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+      },
+
+      '/documents': {
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+      },
+
+      '/rules': {
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+      },
+
+      // IMPORTANT:
+      // Proxy ICD-10 API requests to FastAPI
+      '/api': {
+        target: 'http://127.0.0.1:8000',
+        changeOrigin: true,
+      },
     },
   },
 })

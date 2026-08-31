@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { api, ApiError } from '../services/api';
 import { Loading, ErrorBox, OverallBanner, SeverityBadge, NotSpecified } from '../components/Common';
+import EditMissingInfo from '../components/EditMissingInfo';
 
 const SEVERITIES = ['PASS', 'WARNING', 'PARTIAL_DEDUCTION', 'FAIL'];
 
@@ -73,6 +74,7 @@ export default function ClaimDetail() {
           <button className="secondary" onClick={handleRevalidate} disabled={revalidating}>
             {revalidating ? 'Re-validating…' : 'Re-run Validation'}
           </button>
+	  <EditMissingInfo claim={claim} onUpdated={handleRevalidate} />
 
           <h2>Validation Details</h2>
           <table>

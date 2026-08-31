@@ -12,6 +12,7 @@ export default function Layout({ children }) {
         <NavLink to="/claims/new" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>New Claim</NavLink>
         <NavLink to="/claims" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>Claims</NavLink>
         <NavLink to="/policies" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>Policies</NavLink>
+        <NavLink to="/policies/upload" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>Upload Policy</NavLink>
         <NavLink to="/policy-source-viewer" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>Policy Source Viewer</NavLink>
         <NavLink to="/documentation" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>Documentation</NavLink>
       </nav>
