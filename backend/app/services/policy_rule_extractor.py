@@ -539,8 +539,8 @@ def extract_rules_from_text(
     """
 
     from app.services.pdf_extractor import (
-        chunk_by_pages,
-    )
+    chunk_relevant_policy_pages
+)
 
     if not full_text:
         return []
@@ -549,10 +549,11 @@ def extract_rules_from_text(
         Dict[str, Any]
     ] = []
 
-    chunks = chunk_by_pages(
-        full_text,
-        pages_per_chunk=pages_per_chunk,
-    )
+    chunks = chunk_relevant_policy_pages(
+    full_text,
+    pages_per_chunk=pages_per_chunk,
+    min_score=1
+)
 
     total_chunks = len(chunks)
 
